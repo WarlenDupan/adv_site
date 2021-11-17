@@ -1,0 +1,424 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;0,800;1,300&display=swap");
+.whats {
+  position: fixed;
+  bottom: 0.9375rem;
+  right: 0.9375rem;
+  width: 4.6875rem;
+}
+
+svg {
+  color: #948100;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 6.25rem;
+  background-color: #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header a:hover {
+  color: #524300;
+}
+
+header .area_ult {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 90vw;
+}
+
+header .area_ult .logo_header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 16.8125rem;
+  height: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 1.875rem;
+}
+
+header .area_ult .logo_header img {
+  width: 100%;
+}
+
+header .area_ult .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 36.25rem;
+  height: 6.25rem;
+  margin-left: 2.5rem;
+}
+
+header .area_ult .nav ul > li {
+  display: inline-block;
+  padding: 1.25rem;
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+header .area_ult .nav ul > li a {
+  text-decoration: none;
+  color: white;
+}
+
+header .area_ult .nav ul > li a:hover {
+  color: #524300;
+}
+
+header .area_ult .btn_header {
+  cursor: pointer;
+  width: 18.125rem;
+  height: 3.125rem;
+  background-color: #524300;
+  border-radius: 1.5625rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+header .area_ult a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  width: 90vw;
+  background-color: yellowgreen;
+  margin: 0 auto;
+}
+
+.banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 6.25rem;
+  width: 100%;
+  height: 34.6875rem;
+}
+
+.banner img {
+  width: 36.4375rem;
+  margin-left: 7.3125rem;
+}
+
+.banner #imagem-banner {
+  width: 50rem;
+}
+
+.areaAtuacao {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 43.125rem;
+  width: 100%;
+}
+
+.img-atuacao {
+  width: 11.25rem;
+  height: 11.25rem;
+  border-radius: 50%;
+}
+
+#civil {
+  background-image: url(../img/homem-de-negocios.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#prev {
+  background-image: url(../img/idosos.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#trab {
+  background-image: url(../img/homem-de-trabalho.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.title_atuacao {
+  padding-top: 6.25rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #524300;
+  color: white;
+  height: 5rem;
+  padding: 1.25rem 0;
+  font-size: 1.125rem;
+  font-weight: 900;
+}
+
+.card_atuacao {
+  width: 16.25rem;
+  height: 26.25rem;
+  margin: 3.125rem 1.25rem 1.875rem 1.25rem;
+  border-radius: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card_atuacao p {
+  font-size: 1.25rem;
+  font-weight: 900;
+}
+
+.card_atuacao img {
+  margin-top: 1.25rem;
+  margin-bottom: 1.875rem;
+  width: 11.25rem;
+}
+
+.card_atuacao span {
+  font-size: 1.125rem;
+  margin: 1.875rem 0 1.875rem 0;
+}
+
+.card_atuacao .btn_areas {
+  width: 13.75rem;
+  height: 2.5rem;
+  background-color: #524300;
+  border-radius: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card_atuacao .btn_areas a {
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.foto_sobre {
+  width: 37.5rem;
+  height: 37.5rem;
+  background-image: url(../img/fernanda-moura-escritorio-de-advocacia-SITE.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 50%;
+  margin-top: 6.25rem;
+}
+
+.sobre {
+  padding: 1.25rem;
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: auto;
+}
+
+.texto {
+  margin-top: 6.25rem;
+  float: left;
+  width: 37.5rem;
+  text-align: left;
+}
+
+.texto h1 {
+  font-size: 1.875rem;
+  padding: 0.625rem;
+}
+
+.texto h2 {
+  font-size: 1.4375rem;
+  padding: 0.625rem;
+}
+
+.texto p {
+  padding: 0.3125rem;
+}
+
+.form {
+  background-color: #524300;
+  width: 100%;
+  padding: 4.375rem 0 4.375rem 0;
+}
+
+.form .title-h1 {
+  padding-bottom: 1.875rem;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  color: white;
+}
+
+.form .title-h1 p {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.form .container_form {
+  width: 80%;
+  margin: auto;
+  margin-top: 0;
+  color: white;
+}
+
+input {
+  height: 3.25rem;
+  margin: 0;
+  border-radius: 15px;
+  outline: none;
+  border: solid #524300 0.5px;
+  color: #524300;
+}
+
+input::-webkit-input-placeholder {
+  padding: 0.625rem;
+  color: #524300;
+}
+
+input:-ms-input-placeholder {
+  padding: 0.625rem;
+  color: #524300;
+}
+
+input::-ms-input-placeholder {
+  padding: 0.625rem;
+  color: #524300;
+}
+
+input::placeholder {
+  padding: 0.625rem;
+  color: #524300;
+}
+
+#nome {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: nome;
+}
+
+#email {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: email;
+}
+
+#telefone {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: telefone;
+}
+
+#enviar {
+  background-color: rgba(255, 230, 1, 0.384);
+}
+
+form {
+  margin: auto;
+  width: 80%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+  -ms-grid-rows: auto;
+      grid-template-rows: auto;
+  gap: 0.3125rem;
+      grid-template-areas: "nome nome" "email telefone";
+}
+
+.maps {
+  width: 100%;
+  margin: auto;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 5rem;
+  background-color: #524300;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */

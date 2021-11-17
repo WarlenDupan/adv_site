@@ -1,0 +1,67 @@
+.form {
+    background-color: $color1;
+    width: 100%;
+    padding: rem(70) 0 rem(70) 0;
+    // height: rem(675);
+    
+
+    .title-h1 {
+        padding-bottom: rem(30);
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        color: $white;
+
+        p {
+            font-size: rem(20);
+            font-weight: bold;
+        }
+    }
+
+    .container_form {
+        // height: rem(609);
+        width: 80%;
+        margin: auto;
+        margin-top: rem(0);
+        color: $white;
+        // background-color: lawngreen;
+    }
+}
+
+input {
+    height: rem(52);
+    margin: 0;
+    border-radius: 15px;
+    outline: none;
+    border: solid $color1 .5px;
+    color: $color1;
+
+    &::placeholder {
+        padding: rem(10);
+        color: $color1;
+    }
+}
+
+#nome {grid-area: nome;}
+#email {grid-area: email;}
+#telefone {grid-area: telefone;}
+#enviar {
+    // grid-area: enviar;
+    background-color: rgba(255, 230, 1, 0.384);
+}
+    
+form {
+margin: auto;
+width: 80%;
+// background-color: hotpink;
+display: grid;
+grid-template-columns: auto auto;
+grid-template-rows: auto;
+gap: rem(5);
+    
+grid-template-areas:
+"nome nome"
+"email telefone"
+
+;
+}

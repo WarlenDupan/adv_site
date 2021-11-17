@@ -1,0 +1,39 @@
+.foto_sobre{
+    width: rem(600);
+    height: rem(600);
+    background-image: url(../img/fernanda-moura-escritorio-de-advocacia-SITE.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 50%;
+    margin-top: rem(100);
+}
+
+.sobre{
+    padding: rem(20);
+    width: 80%;
+    // background-color: brown;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.texto {
+    margin-top: rem(100);
+    float: left;
+    width: rem(600);
+    text-align: left;
+
+    h1{
+        font-size: rem(30);
+        padding: rem(10);
+    }
+
+    h2 {
+        font-size: rem(23);
+        padding: rem(10);
+    }
+
+    p {
+        padding: rem(5);
+    }
+}

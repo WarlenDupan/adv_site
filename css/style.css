@@ -23,10 +23,6 @@ h1 {
   padding: 0;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
 header {
   position: fixed;
   top: 0;
@@ -124,12 +120,6 @@ header .area_ult .btn_header {
 header .area_ult a {
   color: white;
   text-decoration: none;
-}
-
-main {
-  width: 90vw;
-  background-color: yellowgreen;
-  margin: 0 auto;
 }
 
 .banner {
@@ -420,5 +410,9 @@ footer {
   height: 5rem;
   background-color: #524300;
   color: white;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 /*# sourceMappingURL=style.css.map */
